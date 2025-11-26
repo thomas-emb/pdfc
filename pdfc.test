@@ -1,0 +1,26 @@
+%PDF-1.3
+1 0 obj % Objects are located and counted, comments removed with `--clean` flag
+<<
+>>
+endobj
+2 0 obj
+<<
+/Foo 1mm 1.mm 0.1mm .1mm % 1mm 1.mm 0.1mm .1mm replaced with `--mm` flag, but not in comments
+>>
+endobj
+3 0 obj
+<< % Length of streams is determined
+/Length>>
+stream
+/Foo
+endstream
+endobj % cross-reference is filled, /Size in trailer is filled, value after startxref is added
+xref
+trailer
+<<
+/Root 2 0 R
+/Size
+/Info 8 0 R
+>>
+startxref
+%%EOF
