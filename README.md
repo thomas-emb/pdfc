@@ -30,4 +30,5 @@ options:
   -i INPUT, --input INPUT
   -o OUTPUT, --output OUTPUT
   -mm, --mm             convert mm to pt
-  -c, --clean           remove all comments```
+  -c, --clean           remove all comments
+```
