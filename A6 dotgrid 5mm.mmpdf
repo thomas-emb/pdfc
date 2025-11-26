@@ -1,0 +1,134 @@
+%PDF-1.3
+1 0 obj
+<<
+/Count 1
+/Kids [3 0 R]
+/MediaBox [0 0 210mm 297mm]
+/Type /Pages
+>>
+endobj
+2 0 obj
+<<
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+/Pages 1 0 R
+/Type /Catalog
+>>
+endobj
+3 0 obj %Page object
+<</Type /Page
+/Parent 1 0 R
+/Resources 4 0 R
+/Contents 7 0 R
+/CropBox [0 0 210mm 297mm]
+>>
+endobj
+4 0 obj %Resource dictionary for page
+<</Pattern <</P1 5 0 R>>
+>>
+endobj
+5 0 obj %Pattern definition
+<</Type /Pattern
+/PatternType 1 %Tiling pattern
+/PaintType 1 %Coloured
+/TilingType 2
+/BBox [-1 -1 5 5]
+/XStep 5
+/YStep 5
+/Resources 6 0 R
+/Matrix [1mm 0 0 1mm 0 0] % 1mm coordinate space
+/Length 100
+>>
+stream
+0.70 G  % Gray (70%)
+0.5 w   % Width (0.5mm)
+1 J     % Rounded caps
+0 3.5 m % Move to (0, 3.5)
+0 3.5 l % Line to (0, 3.5)
+S       % Stroke
+endstream
+endobj
+6 0 obj %Resource dictionary for pattern
+<<
+>>
+endobj
+7 0 obj %Contents of page
+<</Length 100>>
+stream
+% Print dot grid as two rectangles
+/Pattern cs                            % Set pattern colour space
+/P1 scn                                % Set pattern as nonstroking colour
+4mm 7.5mm 202mm 137mm re % Rectangle (5-1, 8.5-1, 205+1, 143.5+1)
+4mm 152.5mm 202mm 137mm re % Rectangle (5-1, 153.5-1, 205+1, 288.5+1)
+f                                      % Fill path
+
+% Vertical fold guide line
+0.50 G                                 % Gray (50%)
+0.2 w                                  % Width (0.2 pt)
+105mm 146mm m % Line from (105, 146)
+105mm 151mm l  % to (105, 151)
+
+% Horizontal cut guide lines
+2.5mm 148.5mm m  % Line from (105, 148.5)
+7.5mm 148.5mm l  % to (105, 148.5)
+202.5mm 148.5mm m  % Line from (105, 148.5)
+207.5mm 148.5mm l  % to (105, 148.5)
+S                                      % Stroke
+
+% Create divider hint dots
+0.70 G                       % Gray (70%)
+0.5mm w         % Width (0.5mm)
+1 J                          % Rounded caps
+% Bottom page horizontal half dividers
+5mm 76mm m 5mm 76mm l % Dot at (5, 76)
+205mm 76mm m 205mm 76mm l   % Dot at (205, 76)
+% Top page horizontal half dividers
+5mm 221mm m 5mm 221mm l   % Dot at (5, 221)
+205mm 221mm m 205mm 221mm l     % Dot at (205, 221)
+
+% Bottom page horizontal third dividers
+205mm 97.5mm m 205mm 97.5mm l   % Dot at (205, 97.5)
+205mm 99.5mm m 205mm 99.5mm l     % Dot at (205, 99.5)
+205mm 54.5mm m 205mm 54.5mm l   % Dot at (205, 54.5)
+205mm 52.5mm m 205mm 52.5mm l     % Dot at (205, 52.5)
+% Top page horizontal third dividers
+5mm 199.5mm m 5mm 199.5mm l     % Dot at (5, 199.5)
+5mm 197.5mm m 5mm 197.5mm l   % Dot at (5, 197.5)
+5mm 242.5mm m 5mm 242.5mm l   % Dot at (5, 242.5)
+5mm 244.5mm m 5mm 244.5mm l   % Dot at (5, 244.5)
+
+% Bottom page vertical half dividers
+55mm 7.5mm m 55mm 7.5mm l   % Dot at (55, 7.5)
+155mm 7.5mm m 155mm 7.5mm l     % Dot at (155, 7.5)
+% Top page vertical half dividers
+55mm 289.5mm m 55mm 289.5mm l   % Dot at (55, 289.5)
+155mm 289.5mm m 155mm 289.5mm l     % Dot at (155, 289.5)
+
+% Bottom page vertical third dividers
+70mm 7.5mm m 70mm 7.5mm l   % Dot at (70, 7.5)
+140mm 7.5mm m 140mm 7.5mm l   % Dot at (140, 7.5)
+70mm 6.5mm m 70mm 6.5mm l % Dot at (70, 6.5)
+140mm 6.5mm m 140mm 6.5mm l % Dot at (140, 6.5)
+% Top page vertical third dividers
+70mm 289.5mm m 70mm 289.5mm l   % Dot at (70, 289.5)
+140mm 289.5mm m 140mm 289.5mm l   % Dot at (140, 289.5)
+70mm 290.5mm m 70mm 290.5mm l   % Dot at (70, 290.5)
+140mm 290.5mm m 140mm 290.5mm l   % Dot at (140, 290.5)
+S
+endstream
+endobj
+8 0 obj
+<<
+/CreationDate (D:20251107164952Z)
+>>
+endobj
+xref
+trailer
+<<
+/Size 
+/Root 2 0 R
+/Info 8 0 R
+/ID [<5B07CF193DCF6294ED36F0E06DA308A6><5B07CF193DCF6294ED36F0E06DA308A6>]
+>>
+startxref
+%%EOF
